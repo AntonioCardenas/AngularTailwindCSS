@@ -1,0 +1,190 @@
+<br>
+<div class="rounded-t-lg bg-gray-200 border-b border-gray-300 whitespace-pre">
+<p class="py-8 inline-block text-5xl" style="vertical-align: middle"> Cuadricula Flexbox(Flexbox grid)</p>
+<svg class="fill-current text-gray-500 inline-block h-8 w-8" style="vertical-align: middle"
+  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+  (click)="navigate('https://tailwindcss.com/components/flexbox-grids')">
+  <path
+    d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z" />
+</svg>
+
+</div>
+<div class="rounded-b-lg border-l border-r border-b border-gray-400 bg-white p-4">
+
+<p class="mt-4 max-w-2xl text-xl leading-7 text-gray-500 ">
+    Tailwind incluye utilidades para CSS Grid pero pero si necesitas dar soporte a navegadores viejos puedes construir grid layouts usando flexbox y width de las utilidades tailwind:
+</p>
+
+<!-- Aca van los ejemplos de formulario -->
+<p class="py-8 text-4xl" style="vertical-align: middle"> Cuadrículas básicas(Basic Grids)</p>
+
+<!-- Full width column -->
+<p class="py-8 text-base" style="vertical-align: middle"> Columna de ancho completo(Full width column)</p>
+
+<div class="flex mb-4">
+    <div class="w-full bg-gray-500 h-12"></div>
+  </div>
+  
+  <!-- Two columns -->
+  <p class="py-8 text-base" style="vertical-align: middle"> Dos Columnas(Two columns)</p>
+
+  <div class="flex mb-4">
+    <div class="w-1/2 bg-gray-400 h-12"></div>
+    <div class="w-1/2 bg-gray-500 h-12"></div>
+  </div>
+  
+  <!-- Three columns -->
+  <p class="py-8 text-base" style="vertical-align: middle"> Tres Columnas(Three columns)</p>
+
+  <div class="flex mb-4">
+    <div class="w-1/3 bg-gray-400 h-12"></div>
+    <div class="w-1/3 bg-gray-500 h-12"></div>
+    <div class="w-1/3 bg-gray-400 h-12"></div>
+  </div>
+  
+  <!-- Four columns -->
+  <p class="py-8 text-base" style="vertical-align: middle"> Cuatro Columnas(Four columns)</p>
+  
+  <div class="flex mb-4">
+    <div class="w-1/4 bg-gray-500 h-12"></div>
+    <div class="w-1/4 bg-gray-400 h-12"></div>
+    <div class="w-1/4 bg-gray-500 h-12"></div>
+    <div class="w-1/4 bg-gray-400 h-12"></div>
+  </div>
+  
+  <!-- Five columns -->
+  <p class="py-8 text-base" style="vertical-align: middle"> Cinco Columnas(Five columns)</p>
+
+  <div class="flex mb-4">
+    <div class="w-1/5 bg-gray-500 h-12"></div>
+    <div class="w-1/5 bg-gray-400 h-12"></div>
+    <div class="w-1/5 bg-gray-500 h-12"></div>
+    <div class="w-1/5 bg-gray-400 h-12"></div>
+    <div class="w-1/5 bg-gray-500 h-12"></div>
+  </div>
+  
+  <!-- Six columns -->
+  <p class="py-8 text-base" style="vertical-align: middle"> Seis Columnas(Six columns)</p>
+
+  <div class="flex">
+    <div class="w-1/6 bg-gray-400 h-12"></div>
+    <div class="w-1/6 bg-gray-500 h-12"></div>
+    <div class="w-1/6 bg-gray-400 h-12"></div>
+    <div class="w-1/6 bg-gray-500 h-12"></div>
+    <div class="w-1/6 bg-gray-400 h-12"></div>
+    <div class="w-1/6 bg-gray-500 h-12"></div>
+  </div>
+
+  
+
+<!-- responsive grids -->
+<p class="py-8 text-4xl" style="vertical-align: middle">Cuadrículas Responsivas(Responsive Grids)</p>
+<div class="flex flex-wrap">
+    <div class="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/6 mb-4 bg-gray-500"></div>
+    <div class="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/6 mb-4 bg-gray-400"></div>
+    <div class="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/6 mb-4 bg-gray-500"></div>
+    <div class="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/6 mb-4 bg-gray-400"></div>
+    <div class="w-full sm:w-1/2 md:w-1/3 lg:w-1/2 xl:w-1/6 mb-4 bg-gray-500"></div>
+    <div class="w-full sm:w-1/2 md:w-1/3 lg:w-1/2 xl:w-1/6 mb-4 bg-gray-400"></div>
+  </div>
+
+<!-- Mixed Column Sizes -->
+<p class="py-8 text-4xl" style="vertical-align: middle">Columnas de tamañoa mixtos(Mixed Column Sizes)</p>
+
+<!-- Narrower side column -->
+<div class="flex mb-4">
+    <div class="w-3/4 bg-gray-500 h-12"></div>
+    <div class="w-1/4 bg-gray-400 h-12"></div>
+  </div>
+  
+  <!-- Wide center column -->
+  <div class="flex">
+    <div class="w-1/5 bg-gray-500 h-12"></div>
+    <div class="w-3/5 bg-gray-400 h-12"></div>
+    <div class="w-1/5 bg-gray-500 h-12"></div>
+  </div>
+  
+<!-- Wrapping Columns -->
+<p class="py-8 text-4xl" style="vertical-align: middle">Envoltura de columnas(Wrapping Columns)</p>
+<div class="flex flex-wrap -mb-4">
+    <div class="w-1/3 mb-4 bg-gray-400 h-12"></div>
+    <div class="w-1/3 mb-4 bg-gray-500 h-12"></div>
+    <div class="w-1/3 mb-4 bg-gray-400 h-12"></div>
+    <div class="w-1/3 mb-4 bg-gray-500 h-12"></div>
+    <div class="w-1/3 mb-4 bg-gray-400 h-12"></div>
+  </div>
+
+<!-- Column Spacing -->
+<p class="py-8 text-4xl" style="vertical-align: middle">Espaciado de columna(Column Spacing)</p>
+<div class="px-2">
+    <div class="flex -mx-2">
+      <div class="w-1/3 px-2">
+        <div class="bg-gray-400 h-12"></div>
+      </div>
+      <div class="w-1/3 px-2">
+        <div class="bg-gray-500 h-12"></div>
+      </div>
+      <div class="w-1/3 px-2">
+        <div class="bg-gray-400 h-12"></div>
+      </div>
+    </div>
+  </div>
+
+<!-- Automatic Column Widths -->
+<p class="py-8 text-4xl" style="vertical-align: middle">Espaciado de columna(Automatic Column Widths)</p>
+<!-- Full width column -->
+<div class="flex mb-4">
+    <div class="flex-1 bg-gray-500 h-12"></div>
+  </div>
+  
+  <!-- Five columns -->
+  <div class="flex mb-4">
+    <div class="flex-1 bg-gray-400 h-12"></div>
+    <div class="flex-1 bg-gray-500 h-12"></div>
+    <div class="flex-1 bg-gray-400 h-12"></div>
+    <div class="flex-1 bg-gray-500 h-12"></div>
+    <div class="flex-1 bg-gray-400 h-12"></div>
+  </div>
+  
+  <!-- Seven columns -->
+  <div class="flex mb-4">
+    <div class="flex-1 bg-gray-400 h-12"></div>
+    <div class="flex-1 bg-gray-500 h-12"></div>
+    <div class="flex-1 bg-gray-400 h-12"></div>
+    <div class="flex-1 bg-gray-500 h-12"></div>
+    <div class="flex-1 bg-gray-400 h-12"></div>
+    <div class="flex-1 bg-gray-500 h-12"></div>
+    <div class="flex-1 bg-gray-400 h-12"></div>
+  </div>
+  
+  <!-- Eleven columns -->
+  <div class="flex mb-4">
+    <div class="flex-1 bg-gray-400 h-12"></div>
+    <div class="flex-1 bg-gray-500 h-12"></div>
+    <div class="flex-1 bg-gray-400 h-12"></div>
+    <div class="flex-1 bg-gray-500 h-12"></div>
+    <div class="flex-1 bg-gray-400 h-12"></div>
+    <div class="flex-1 bg-gray-500 h-12"></div>
+    <div class="flex-1 bg-gray-400 h-12"></div>
+    <div class="flex-1 bg-gray-500 h-12"></div>
+    <div class="flex-1 bg-gray-400 h-12"></div>
+    <div class="flex-1 bg-gray-500 h-12"></div>
+    <div class="flex-1 bg-gray-400 h-12"></div>
+  </div>
+
+<!-- Column Order -->
+<p class="py-8 text-4xl" style="vertical-align: middle">Orden de columnas(Column Order)</p>
+<div class="flex md:flex-row-reverse flex-wrap">
+    <div class="w-full md:w-3/4 bg-gray-500 p-4 text-center text-gray-200">1</div>
+    <div class="w-full md:w-1/4 bg-gray-400 p-4 text-center text-gray-700">2</div>
+  </div>
+  
+
+<!-- Simple Offsets -->
+<p class="py-8 text-4xl" style="vertical-align: middle">Compensaciones simples(Simple Offsets)</p>
+<div class="flex flex-wrap">
+    <div class="w-1/3 ml-auto bg-gray-500 h-12"></div>
+    <div class="w-1/3 mr-auto bg-gray-400 h-12"></div>
+  </div>
+</div>
+<br>

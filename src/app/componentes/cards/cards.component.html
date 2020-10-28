@@ -1,0 +1,59 @@
+<br>
+<div class="rounded-t-lg bg-gray-200 border-b border-gray-300 whitespace-pre">
+<p class="py-8 inline-block text-5xl" style="vertical-align: middle"> Tarjetas (Cards)</p>
+<svg class="fill-current text-gray-500 inline-block h-8 w-8" style="vertical-align: middle"
+  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+  (click)="navigate('https://tailwindcss.com/components/cards#app')">
+  <path
+    d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76 0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71 0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71 0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76 0 5-2.24 5-5s-2.24-5-5-5z" />
+</svg>
+</div>
+<div class="rounded-b-lg border-l border-r border-b border-gray-400 bg-white p-4">
+
+<p class="mt-4 max-w-2xl text-xl leading-7 text-gray-500 ">
+  Tailwind no incluye commponentes de tarjetas prediseñadas pero son faciles de contruir utilizando las utilidades existentes, aca algunos ejemplos:
+</p>
+<!-- Aca van las cards del blog -->
+<p class="py-8 text-4xl" style="vertical-align: middle">Tarjetas Horrizontal</p>
+
+<div class="max-w-sm w-full lg:max-w-full lg:flex">
+  <div class="h-48 lg:h-auto lg:w-48 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden" style="background-image: url('https://images.unsplash.com/photo-1585057850147-3486a7a1eea5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1534&q=80')" title="Woman holding a mug">
+  </div>
+  <div class="border-r border-b border-l border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 bg-white rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal">
+    <div class="mb-8">
+      <p class="text-sm text-gray-600 flex items-center">
+        <svg class="fill-current text-gray-500 w-3 h-3 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+          <path d="M4 8V6a6 6 0 1 1 12 0v2h1a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2v-8c0-1.1.9-2 2-2h1zm5 6.73V17h2v-2.27a2 2 0 1 0-2 0zM7 6v2h6V6a3 3 0 0 0-6 0z" />
+        </svg>
+        Members only
+      </p>
+      <div class="text-gray-900 font-bold text-xl mb-2">Can coffee make you a better developer?</div>
+      <p class="text-gray-700 text-base">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.</p>
+    </div>
+    <div class="flex items-center">
+      <img class="w-10 h-10 rounded-full mr-4" src="https://images.unsplash.com/photo-1512441294539-d74b41132524?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80" alt="Avatar of Jonathan Reinink">
+      <div class="text-sm">
+        <p class="text-gray-900 leading-none">Jonathan Reinink</p>
+        <p class="text-gray-600">Aug 18</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<p class="py-8 text-4xl" style="vertical-align: middle">Tarjetas para Apilar (Stacked)</p>
+
+<div class="max-w-sm rounded overflow-hidden shadow-lg">
+  <img class="w-full" src="https://images.unsplash.com/photo-1502872364588-894d7d6ddfab?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="Sunset in the mountains">
+  <div class="px-6 py-4">
+    <div class="font-bold text-xl mb-2">The Coldest club</div>
+    <p class="text-gray-700 text-base">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
+    </p>
+  </div>
+  <div class="px-6 pt-4 pb-2">
+    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#photography</span>
+    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#travel</span>
+    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#winter</span>
+  </div>
+</div>
+</div>
