@@ -1,4 +1,5 @@
 module.exports = {
+  darkMode: 'media',
   future: {
     // removeDeprecatedGapUtilities: true,
     // purgeLayersByDefault: true,
@@ -734,6 +735,9 @@ module.exports = {
     divideOpacity: ['responsive'],
     divideStyle: ['responsive'],
     divideWidth: ['responsive'],
+    extend: {
+      textOpacity: ['dark']
+    },
     fill: ['responsive'],
     flex: ['responsive'],
     flexDirection: ['responsive'],
