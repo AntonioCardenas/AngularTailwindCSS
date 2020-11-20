@@ -2,8 +2,8 @@
 
 # 🅰️ngular + Tailwind = 💓
 
-[![Angular](https://img.shields.io/badge/angular%20-%23DD0031.svg?&style=for-the-badge&logo=angular&logoColor=white)](http://angular.io/)
-[![TailwindCSS](https://img.shields.io/badge/tailwindcss%20-%2338B2AC.svg?&style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
+[![Angular](https://img.shields.io/badge/angular-v11%20-%23DD0031.svg?&style=for-the-badge&logo=angular&logoColor=white)](http://angular.io/)
+[![TailwindCSS](https://img.shields.io/badge/tailwindcss-2.0%20-%2338B2AC.svg?&style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
 
 Este proyecto fue generado con [Angular CLI](https://github.com/angular/angular-cli) version 10.1.7.
 
